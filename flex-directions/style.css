@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+div.container {
+    background-color: coral;
+
+    display: flex;
+    flex-direction: row;  /*Por padrão, o flex-direction é row, suas outras opções são column, row-reverse e column-reverse
+    */
+}
+
+div.box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border: #000000 2px solid;
+    color: white;
+    margin: 4px;
+
+    text-align: center;
+    line-height: 100px; /* Alinha o texto verticalmente no centro da caixa */
+}
