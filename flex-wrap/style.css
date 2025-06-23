@@ -4,8 +4,11 @@ div.container {
     background-color: coral;
 
     display: flex;
-    flex-direction: row;  /*Por padrão, o flex-direction é row, suas outras opções são column, row-reverse e column-reverse
-    */
+    flex-direction: row;
+    /*flex-wrap: wrap;  Permite que os itens se movam para a próxima linha quando não houver espaço suficiente */
+    flex-wrap: wrap-reverse; /* Inverte a ordem de empacotamento dos itens */
+
+    /* temos também o flex-flow; que é a combinação de flex-direction e flex-wrap evitando assim a necessidade de definir as duas propriedades separadamente */
 }
 
 div.box {
