@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+div.container {
+    background-color: coral;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center; /* Alinha os itens no centro do contêiner */
+    /*justify-content: end;  Alinha os itens no final do contêiner */
+    /*justify-content: space-between;  Distribui os itens com espaço igual entre eles */
+    justify-content: space-around;  /*Distribui os itens com espaço igual ao redor deles */
+    /*justify-content: space-evenly;  Distribui os itens com espaço igual entre eles */
+}
+
+div.box {
+    width: 100px;
+    height: 100px;
+    background-color: #8b005b;
+    border: #000000 2px solid;
+    color: white;
+    margin: 4px;
+
+    text-align: center;
+    line-height: 100px; /* Alinha o texto verticalmente no centro da caixa */
+}
